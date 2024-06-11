@@ -2,9 +2,9 @@ name: parameters
 description: Dart project to implement the parameter macro features.
 version: 0.0.1
 
-homepage: https://laszlo11.dev
+homepage: https://github.com/Laszlo11-dev/parameters
 repository: https://github.com/Laszlo11-dev/parameters
-issue_tracker: https://github.com/Laszlo11-dev/parameter/issues
+issue_tracker: https://github.com/Laszlo11-dev/parameters/issues
 
 topics:
   - devtools

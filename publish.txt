@@ -1,6 +1,6 @@
 dart pub global activate pana
 xcopy * c:\tmp\parameter_macro\ /E/H /EXCLUDE:pana_exclude.txt
-fvm dart pub global run pana c:\tmp\parameter_macro --flutter-sdk   C:\Users\KL\fvm\versions\master
+dart pub global run pana c:\tmp\parameter_macro --flutter-sdk   C:\Users\KL\fvm\versions\master
 
 
 fvm dart pub global activate dartdoc
@@ -12,4 +12,4 @@ dhttpd --path doc/api
 
 http://localhost:8080
 
-dart pub publish --dry-run
+fvm flutter pub publish --dry-run
