@@ -1,0 +1,19 @@
+name: parameter_demo
+description: "A Dart/Flutter project to show the parameter macro features."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 0.0.1
+
+environment:
+  sdk: '>=3.5.0-152 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  parameters:
+    path:  ../
+
+#dev_dependencies:
+
+flutter:
+  uses-material-design: true

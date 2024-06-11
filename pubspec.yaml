@@ -1,0 +1,41 @@
+name: parameters
+description: Dart project to implement the parameter macro features.
+version: 0.0.1
+
+homepage: https://laszlo11.dev
+repository: https://github.com/Laszlo11-dev/parameters
+issue_tracker: https://github.com/Laszlo11-dev/parameter/issues
+
+topics:
+  - devtools
+  - navigation
+  - preview
+  - screenshot
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  windows:
+  web:
+
+funding:
+  - https://www.github.com/laszlo11-dev
+
+
+environment:
+  sdk: '>=3.5.0-152 <4.0.0'
+
+dependencies:
+  dartdoc: ^8.0.9
+  flutter:
+    sdk: flutter
+
+  macros: ^0.1.0-main
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
