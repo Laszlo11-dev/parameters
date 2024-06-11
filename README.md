@@ -1,6 +1,6 @@
 # **parameters macro**
 
-Experimental implementation of the Dart Parameter Group proposal [Using constructor and function parameter lists as implicit parameter groups #2234 (https://github.com/dart-lang/language/issues/2234/)](https://github.com/dart-lang/language/issues/2234/)  via Dart static meta proqramming (macro).
+Experimental implementation of the Dart Parameter Group proposal [Using constructor and function parameter lists as implicit parameter groups #2234 (https://github.com/dart-lang/language/issues/2234/)](https://github.com/dart-lang/language/issues/2234/)  via Dart static meta programming (macro).
 
 
 Please note:
@@ -155,7 +155,7 @@ augment class OptimizedFloatingActionButton {
 
 
 With the parameters macro we can spare 3*21 = 63 lines => 17% of the code.
-If go further, the default constructor of the FloatingActionButton has 17 command fields with the RawMaterialButton constructor.
+If we go further, the default constructor of the FloatingActionButton has 17 command fields with the RawMaterialButton constructor.
 That way 80 repeated lines can be avoided, that's 22% save.
 
 The resulting code is not only smaller but easier to understand because it clearly indicates what is the same and where are the differences.
@@ -274,5 +274,5 @@ Due to these issues, the code is less attractive and not usable, but still very 
 ## How to proceed
 If the Macros will be a part of Dart, and the missing features will be implemented, than this macro will really make an impact on how we work in Dart/Flutter.
 
-A decision is needed whether this remain a third-party package or will be somehow integrated into the core set.
+A decision is needed whether this remains a third-party package or will be somehow integrated into the core set.
 
