@@ -162,9 +162,9 @@ The resulting code is not only smaller but easier to understand because it clear
 This a Dart feature but Flutter will benefit a lot from it.
 
 
-### Example 2: Flutter TextField
+### Example 2: Flutter TextFormField
 
-It unites two words: FormField and TextField and you can see this on its constructor
+It unites two worlds: FormField and TextField and you can see this on its constructor
 
 ```dart
  TextFormField({
