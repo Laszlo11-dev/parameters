@@ -1,6 +1,6 @@
 name: parameters
 description: Dart project to implement the parameter macro features.
-version: 0.0.1
+version: 0.0.2
 
 homepage: https://github.com/Laszlo11-dev/parameters
 repository: https://github.com/Laszlo11-dev/parameters
@@ -9,7 +9,7 @@ issue_tracker: https://github.com/Laszlo11-dev/parameters/issues
 topics:
   - parameters
   - macro
-  - parameter_group
+  - parametergroup
   - constructor
 
 platforms:
